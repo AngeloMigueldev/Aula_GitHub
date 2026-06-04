@@ -1,3 +1,3 @@
-# Aula_GitHub
-Ângelo Miguel 
+# Interface Gráfica com o Usuário (GUI) com Java
+
 
