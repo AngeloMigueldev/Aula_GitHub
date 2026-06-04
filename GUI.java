@@ -1,9 +1,9 @@
+import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
-import java.awt.*;
 
-public class CadastroAlunosGUI extends JFrame {
+public class GUI extends JFrame {
 
     private JTextField txtNome;
     private JTextField txtIdade;
@@ -12,7 +12,7 @@ public class CadastroAlunosGUI extends JFrame {
     private JTextArea areaResumo;
     private DefaultTableModel tabelaModelo;
 
-    public CadastroAlunosGUI() {
+    public GUI() {
         setTitle("Sistema de Cadastro de Alunos");
         setSize(700, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -108,7 +108,7 @@ public class CadastroAlunosGUI extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            CadastroAlunosGUI tela = new CadastroAlunosGUI();
+            GUI tela = new GUI();
             tela.setVisible(true);
         });
     }
